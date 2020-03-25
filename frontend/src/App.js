@@ -3,7 +3,7 @@ import Logon from './pages/Logon'
 
 function App() {
     return (
-        <Header title="Semana omnistack"/>
+        <Logon />
     )
 }
 
