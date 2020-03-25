@@ -5,7 +5,7 @@ import './style.css'
 import { Link } from 'react-router-dom'
 import { FiArrowLeft} from 'react-icons/fi'
 
-import logoImg from '../../assets/logoImg'
+import logoImg from '../../assets/logo.svg'
 
 export default function Register() {
     return (
@@ -23,7 +23,15 @@ export default function Register() {
                 </section>
 
                 <form action="">
+                    <input placeholder="Nome da ONG"/>
+                    <input type="email" placeholder="E-mail"/>
+                    <input placeholder="WhatsApp"/>
 
+                    <div className="input-group">
+                        <input placeholder="Cidade"/>
+                        <input placeholder="UF" style={{ width: 80 }} />
+                    </div>
+                    <button className="button" type="submit"> Cadastrar </button>
                 </form>
             </div>
         </div>
