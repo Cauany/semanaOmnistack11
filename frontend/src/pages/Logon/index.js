@@ -1,5 +1,6 @@
 import React from 'react'
 import { FiLogIn } from 'react-icons/fi'
+import '../../../src/global.css'
 import './style.css'
 
 import logoImg from '../../assets/logo.svg'
@@ -14,7 +15,7 @@ export default function Logon(){
             <form>
                 <h1> Faça seu logon</h1>
                 <input placeholder=" Sua ID"/>
-                <button type="submit"> Entrar </button>
+                <button className="button" type="submit"> Entrar </button>
 
                 <a href="/register">
                     <FiLogIn size={16} color="#E02041" />
