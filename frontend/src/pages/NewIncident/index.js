@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi'
-
 import logoImg from '../../assets/logo.svg'
 import './style.css'
 
