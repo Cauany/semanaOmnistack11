@@ -14,7 +14,7 @@ export default function NewIncident(){
                     <h1> Cadastrar novo caso </h1>
                     <p> Descreva o caso detalhadamente para encoontrar um herói para resolver isso.</p>
                 
-                    <Link className="back-link" to="/">
+                    <Link className="back-link" to="/profile">
                     <FiArrowLeft size={16} color="#E02041" />
                     Voltar para home
                 </Link>
@@ -22,7 +22,7 @@ export default function NewIncident(){
 
                 <form>
                     <input placeholder="Título do caso"/>
-                    <input placeholder="Descrição"/>
+                    <textarea placeholder="Descrição"/>
                     <input placeholder="Valor em reais"/>
 
                     <button className="button" type="submit"> Cadastrar </button>
